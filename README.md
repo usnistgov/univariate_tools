@@ -5,7 +5,7 @@ Tools to fit, interpolate, and synthesize univariate data.
 # Installation 
 ## Method 1 - Directly from Github
 ```shell
-pip install git+https://github.com/sandersa-nist/univariate_tools.git
+pip install git+https://github.com/usnistgov/univariate_tools 
 ```
 ## Method 2 - Clone then Install
 1. Use your favorite way to clone the repo or download the zip file and extract it.  
@@ -28,7 +28,7 @@ plt.plot(x_data,gauss_line(alpha=1,x0=.1,delta=.1,m=1.2,b=.1,x=x_data))
 plt.title("${0}$".format(gauss_line.to_latex()))
 
 ```
-![image](./documentation/gauss_line.png)
+![image](./docs/gauss_line.png)
 
 # Workflow
 ## Calculating Data 
@@ -143,7 +143,7 @@ plt.show()
 An [example](./examples/Example.ipynb) of creating a functional model, fitting data, creating composite models and simulating data. 
 
 # API Documentation
-The [API Documentation](https://sandersa-nist.github.io/univariate_tools) links to the __init__.py file and has the primary submodules linked. 
+The [API Documentation](https://pages.nist.gov/univariate_tools) links to the __init__.py file and has the primary submodules linked. 
 
 # Contact
 Aric Sanders [aric.sanders@nist.gov](mailto:aric.sanders@nist.gov)
