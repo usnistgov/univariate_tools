@@ -5,7 +5,7 @@ Tools to fit, interpolate, and synthesize univariate data.
 # Installation 
 ## Method 1 - Directly from Github
 ```shell
-pip install git+https://github.com/usnistgov/univariate_tools 
+pip install git+https://github.com/usnistgov/univariate_tools.git 
 ```
 ## Method 2 - Clone then Install
 1. Use your favorite way to clone the repo or download the zip file and extract it.  
