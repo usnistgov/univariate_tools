@@ -301,7 +301,7 @@ class FunctionalModel(object):
         if len(self.variables) == 1:
             variables = other.variables
             parameters = list(set(self.parameters + other.parameters))
-            equation = self.equation.subs({self.variables[0]: other})
+            equation = self.equation.subs({self.variables[0]: other.equation})
             new_function = FunctionalModel(parameters=parameters, variables=variables, equation=equation)
             return new_function
         else:
